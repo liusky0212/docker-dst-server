@@ -1,6 +1,6 @@
 ARG BASE_IMAGE=debian:buster-slim
 FROM $BASE_IMAGE
-LABEL maintainer="James Swineson <docker@public.swineson.me>"
+LABEL maintainer="Liu FallApart"
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG STEAMCMD_URL=https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
