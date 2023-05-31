@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=debian:buster-slim
+ARG BASE_IMAGE=debian:11-slim
 FROM $BASE_IMAGE
 LABEL maintainer="Liu FallApart"
 
